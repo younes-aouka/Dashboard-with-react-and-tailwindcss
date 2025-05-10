@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router';
+import { Analytics } from "@vercel/analytics/next"
 import './App.css';
 import Content from './Content';
 import NavBar from './Navbar';
@@ -12,6 +13,7 @@ const App = () => {
         <NavBar/>
         <Content/>
       </BrowserRouter>
+      <Analytics />
     </main>
   )
 }
