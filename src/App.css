@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .main-b {
+        border: 1px solid #2c2929;
+    }
+    .main-br {
+        border-radius: 13px;
+    }
+    .border-rr {
+        border-top-right-radius: 13px;
+        border-bottom-right-radius: 13px;
+    }
+    .scrollBar-none {
+        scrollbar-width: none;
+    }
+}
+
+@layer components {
+    .responsive-grid-200 {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 10px;
+    }
+    .responsive-grid-250 {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 10px;
+    }
+    .responsive-grid-300 {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 10px;
+    }
+}
