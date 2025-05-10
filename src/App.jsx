@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router';
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react"
 import './App.css';
 import Content from './Content';
 import NavBar from './Navbar';
