@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router';
-import { Analytics } from "@vercel/analytics/react"
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react"
 import './App.css';
 import Content from './Content';
 import NavBar from './Navbar';
@@ -14,6 +15,7 @@ const App = () => {
         <Content/>
       </BrowserRouter>
       <Analytics />
+      <SpeedInsights />
     </main>
   )
 }
