@@ -7,8 +7,6 @@
 ## 📦 Tech Stack
 - React
 - Tailwind CSS
-## 🖥️ Live Demo
-Check it out on [Vercel](https://dashboard-with-react-and-tailwindcss.vercel.app/)
 ## 📂 Getting Started
 ```bash
 npm install
